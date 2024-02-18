@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero{
+  background-image: url("/hero1.webp");
+  width: 100%;
+  height: 200px;
+}
+:hover.box1{
+  filter: brightness(95%);
+  transform: scale(1.02);
+  /* backface-visibility: hidden; */
+  transition-duration: 100ms;
+  box-shadow: 0 4px 8px 0 rgba(47, 46, 46, 0.1), 0 4px 8px 0 rgba(47, 46, 46, 0.1);
+}
+input {
+  background-color: transparent;
+  border: 0px solid;
+  height: 20px;
+  width: 160px;
+  color: #CCC;
+}
